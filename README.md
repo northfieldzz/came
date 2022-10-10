@@ -1,6 +1,6 @@
-# inspector_camera
+# came
 
-It provides a python wrapper library for the camera needed for image AI inference.
+It provides a python wrapper library for the camera.
 
 The Camera object has a common interface.
 
