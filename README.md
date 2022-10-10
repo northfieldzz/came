@@ -6,7 +6,7 @@ The Camera object has a common interface.
 
 ## Install
 ```shell
-pip install --extra-index-url http://43.0.86.94 --trusted-host 43.0.86.94 inspector-camera
+pip install --extra-index-url http://localhost --trusted-host localhost came
 ```
 
 ## Build
