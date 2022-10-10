@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "==4.1.1.26"
+requests = "==2.26.0"
+
+[dev-packages]
+
+[scripts]
+tests = "python -m unittest discover src.tests -v"
+build_bdist = "python setup.py bdist_wheel"
+build_sdist = "python setup.py sdist"
+publish = "python setup.py sdist upload -r privatepypi"
+
+[requires]
+python_version = "3.9"
